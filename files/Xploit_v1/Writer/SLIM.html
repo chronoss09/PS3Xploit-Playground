@@ -1,0 +1,43 @@
+<html>
+<script src="html/include/ps3_check.js"></script>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style>
+div#buttonstuffs {
+    text-align: center;
+}
+a{
+color: red;
+}
+</style>
+<script>
+function loadNAND(){
+	document.location.href = "html/nand-482.html";
+}
+function loadNOR(){
+	document.location.href = "html/nor-482.html";
+}
+</script>
+</head>
+<body id="BodyID" background="img/Back.png">
+	<div id="HeaderID" style="color:#A0522D">
+	<CENTER><h1>NAND & NOR WRITER v1.0 par la Team PS3Xploit</h1>
+	<font color="#00AA00">
+	<h2>Utilisable uniquement sur une console en Firmware OFFICIEL!!! <font color="red"><br>NE PAS UTILISER SUR UNE CONSOLE EN CFW!</font></h2><hr>
+	<h1><font color="yellow">Console SLIM compatible :</font><h1>
+	<h3>NOR : Hxx/Jxx/Kxx/Lxx/Mxx/Pxx/Qxx<h3>
+	<h3>Pour les consoles SLIM 2xxx <font color="pink">(Firmware version 3.56 maximum requis, vérifier-le avec le fichier "minverchk.pup")</font></h3>
+	<img  src="img/modele.jpg"></font></CENTER>
+	</div>
+	<br>
+	<hr><h2><CENTER><font color="yellow"><b>** BIEN VERIFIER QUE VOTRE CLE USB EST SUR LE PORT LE PLUS A DROITE DE VOTRE LECTEUR BLUE-RAY ET CONTIENT BIEN LE FICHIER "<font color="red">flsh.hex</font>" **</font><hr></b></h2></CENTER>
+	<CENTER><img  src="img/USB.png"></CENTER>
+	<br>
+	<div id="buttonstuffs">
+	<button id="btnnor" onclick="loadNOR();"><b>Lancer le patch de la NAND</b></button>
+	</div>
+	<script type="text/javascript">
+	ps3chk();
+	</script>
+</body>
+</html>
