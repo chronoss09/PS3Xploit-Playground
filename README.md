@@ -12,4 +12,5 @@ Un playground uniquement pour les outils de la Team PS3Xploit pour la PS3
 * **Installation du ColdBoot, Wave, Gameboot et Police**
 * **Debug Mode (DEX), Switch Debug (CEX vers DEX et vice versa) et Plugin Swapper**
 
-*Grand merci à la Team PS3Xploit pour tout le travail fourni et le temps passé pour la réalisation de tous ces fichiers...*
+*Grand merci à la **Team PS3Xploit** pour tout le travail fourni et le temps passé pour la réalisation de tous ces fichiers...*
+*Sans oublier les auteurs du **HAN ToolBox** pour les superbes icônes*
